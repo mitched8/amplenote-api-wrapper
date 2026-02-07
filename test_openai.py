@@ -75,8 +75,6 @@ def summarize_with_openai(notes_data):
     3. Provide a 2-sentence summary of my recent activity.
     """
 
-    # Using gpt-4o as the latest flagship model. 
-    # Note: "5.1" is likely a typo or future model; sticking to gpt-4o for now.
     model_name = "gpt-5.1"
     print(f"🤖 Sending request to OpenAI ({model_name})...")
     
